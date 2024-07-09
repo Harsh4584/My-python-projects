@@ -1,6 +1,7 @@
 #MY FIRST PROJECT
 # ROBO SPEAKER
 
+#For Mac
 # import os
 
 # if __name__ == '__main__':
@@ -10,6 +11,8 @@
 #         command = f"say {x}" 
 #         os.system(command)
 
+
+#For Windows
 import pyttsx3
 if __name__ == '__main__':
     text_to_speech = pyttsx3.init()
